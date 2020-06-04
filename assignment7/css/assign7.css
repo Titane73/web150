@@ -1,0 +1,14 @@
+/* both input and lable need to be block for margin property */
+input, label {
+    display: block;
+    
+}
+
+label {
+    margin-top: 10px;
+
+}
+
+input[type=submit] {
+    margin-top: 10px;
+}
