@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Sum Game</title>
+    </head>
+    <body>
+        
+        <script>
+            // Prompts for name
+            var name = prompt("Let\'s play the sum game.\nPlease enter your name");
+
+            // Prompts for first and second numbers
+            var num1 = prompt("Enter first number");
+            var num2 = prompt("Enter second number");
+
+            // Calculates sum of numbers enters, parseInt ensures the variables are integers
+            var sum = parseInt(num1) + parseInt(num2);
+            
+            // Prints text and variables to screen
+           document.write("Hi, " + name + "! The sum of " + num1 + " + " + num2 + " is " + sum);
+        </script>
+    </body>
+</html>

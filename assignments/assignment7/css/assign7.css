@@ -1,0 +1,29 @@
+html {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)
+}
+
+.background {
+    color: #fff;
+    margin: 5em auto;
+    width: 50%;
+    height: 50vh;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+/* both input and lable need to be block for margin property */
+input, label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#btn {
+    margin-top: 10px;
+}
