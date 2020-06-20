@@ -1,0 +1,101 @@
+body {
+    background-image: radial-gradient(#ffa0f7, #ea02ff, #5776fd, #0021b4, #994bff, #3e028d);
+    text-align: center;
+}
+.welcome {
+    color: #f9a6fc;
+    font-size: 3em;
+}
+.grid-container {
+    margin-top: 2em;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10px;
+    row-gap: 15px;
+    text-align: center;
+   
+
+}
+
+.cell {
+    height: 300px;
+    border: #000 solid 2px;
+}
+
+.one {
+    background-color: #c6ffff;
+}
+
+.stanza{
+    margin: 0 auto;
+    font-size: 28px;
+    width: 75%;
+}
+
+
+.two {
+    background-color: #ffebc6;
+}
+
+.three {
+    background-color: #c8ffc6;
+}
+
+.four {
+    background-color: #ffc6c6;
+}
+
+
+label {
+    display: inline-block;
+    margin-top: 1em;
+    width: 5em;
+  }
+
+
+#button { 
+    padding: .5em 1em; 
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+#effect { 
+    position: relative; 
+    margin: 10px auto;
+}
+.newClass { 
+    width: 240px; 
+    padding: 1em; 
+    letter-spacing: 0; 
+    margin: 0; 
+    background-color: #ddb8ff;
+}
+.anotherNewClass { 
+    text-indent: 40px; 
+    letter-spacing: .2em; 
+    width: 410px; 
+    height: 100px; 
+    padding: 30px;
+    margin: 10px; 
+    font-size: 1.5em; 
+    font-weight: bold;
+    background-color: #dc143c;
+}
+
+#draggable { 
+    background-color: #f76666;
+    border-radius: 20px;
+    width: 200px; 
+    height: 200px; 
+    padding: 0.5em; 
+    margin: 0 auto;
+
+}
+
+#draggable img {
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
